@@ -8,6 +8,7 @@ import TailwindcssImg from "@/public/tool_stack/TailwindCss.png";
 import NodejsImg from "@/public/tool_stack/Nodejs.png";
 import MongodbImg from "@/public/tool_stack/MongoDB.png";
 import FirebaseImg from "@/public/tool_stack/Firebase.png";
+import Gsap from "@/public/tool_stack/Gsap.png";
 
 import gsap from "gsap";
 import { useRef } from "react";
@@ -262,6 +263,16 @@ const Expertise = () => {
                     className="group-hover:scale-110 group-hover:-translate-y-1 transition-all duration-200 ease-in-out"
                   />
                   <h4 className="text-xs text-zinc-400">TailwindCSS</h4>
+                </div>
+                <div className="flex flex-col items-center justify-between py-2 px-4 gap-1 group w-[calc(25%-12px)]">
+                  <Image
+                    src={Gsap}
+                    alt="react-js"
+                    width={35}
+                    height={35}
+                    className="group-hover:scale-110 group-hover:-translate-y-1 transition-all duration-200 ease-in-out"
+                  />
+                  <h4 className="text-xs text-zinc-400">Gsap</h4>
                 </div>
               </div>
             </li>
