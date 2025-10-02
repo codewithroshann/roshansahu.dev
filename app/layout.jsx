@@ -17,9 +17,9 @@ export const metadata = {
 
   // Standard icons setup, referencing files directly from /public/favicons/
   icons: {
-    icon: "../public/favicons/favicon.ico",
-    shortcut: "../public/favicons/favicon.ico",
-    apple: "../public/favicons/apple-touch-icon.png",
+    icon: "/favicons/favicon.ico",
+    shortcut: "/favicons/favicon.ico",
+    apple: "/favicons/apple-touch-icon.png",
   },
   
   // Open Graph (OG) Metadata for Rich Link Previews

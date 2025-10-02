@@ -91,14 +91,14 @@ const Expertise = () => {
               <div className="flex justify-between mb-1">
                 <h3 className="dark:text-white font-bold ">Beat Wave</h3>
                 <div className="flex gap-3 text-xs text-zinc-400 ">
-                  <a
+                  <a target="_blank"
                     href="https://github.com/codewithroshann/BeatWave"
                     className="flex gap-1 hover:text-white transition-all duration-150"
                   >
                     Github
                     <i className="ri-share-box-fill"></i>
                   </a>
-                  <a
+                  <a target="_blank"
                     href="https://beat-wave-pink.vercel.app/"
                     className="flex gap-1 hover:text-white transition-all duration-150"
                   >
@@ -126,15 +126,15 @@ const Expertise = () => {
               <div className="flex justify-between mb-1">
                 <h3 className="dark:text-white font-bold ">Galaxy Academy</h3>
                 <div className="flex gap-3 text-xs text-zinc-400 ">
-                  <a
-                    href=""
+                  <a target="_blank"
+                    href="https://github.com/codewithroshann/Galaxy-Academy"
                     className="flex gap-1 hover:text-white transition-all duration-150"
                   >
                     Github
                     <i className="ri-share-box-fill"></i>
                   </a>
-                  <a
-                    href=""
+                  <a target="_blank"
+                    href="https://galaxy-academy.vercel.app/"
                     className="flex gap-1 hover:text-white transition-all duration-150"
                   >
                     View
@@ -162,15 +162,15 @@ const Expertise = () => {
                   QR Code Generator
                 </h3>
                 <div className="flex gap-3 text-xs text-zinc-400 ">
-                  <a
-                    href=""
+                  <a target="_blank"
+                    href="https://github.com/codewithroshann/Qr_Code_Generator/"
                     className="flex gap-1 hover:text-white transition-all duration-150"
                   >
                     Github
                     <i className="ri-share-box-fill"></i>
                   </a>
-                  <a
-                    href=""
+                  <a target="_blank"
+                    href="https://qr-code-generator-vmg0.onrender.com/"
                     className="flex gap-1 hover:text-white transition-all duration-150"
                   >
                     View
@@ -212,11 +212,11 @@ const Expertise = () => {
                 Full Stack Developer With Mern Core Concept
               </p>
               <div className="flex flex-wrap gap-3">
+                <span className="text-zinc-500 text-xs">React.js /</span>
                 <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
+                <span className="text-zinc-500 text-xs">Express.js /</span>
+                <span className="text-zinc-500 text-xs">MondoDB /</span>
+                <span className="text-zinc-500 text-xs">Firebase /</span>
               </div>
             </li>
           </div>
