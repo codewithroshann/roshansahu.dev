@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import profileImg from "@/public/pexels-photo-1704488.webp";
-import { Linkedin } from "@remixicon/react";
+import profileImg from "@/public/profile/Img.jpg";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -32,7 +32,7 @@ const Profile = () => {
         >
           <div className="rounded-lg ">
             <Image
-              className="rounded-full h-[120px] min-w-[120px] max-w-[120px]"
+              className="rounded-full min-h-[120px] min-w-[120px] max-h-[130px] max-w-[130px]"
               src={profileImg}
               alt="profileImg-logo"
             />
@@ -44,7 +44,7 @@ const Profile = () => {
             <p className="text-zinc-400 text-sm items-center  flex gap-1">
               <i className="ri-map-pin-line"></i> Bilaspur, Chhatishgarh, India
             </p>
-            <div className="flex items-center  gap-2 text-zinc-300">
+            <div className="flex items-center flex-wrap gap-2 text-zinc-300">
               <a
                 href=""
                 target="_blank"
