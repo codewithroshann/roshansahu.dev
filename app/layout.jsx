@@ -13,7 +13,7 @@ const spaceGrotesk = Space_Grotesk({
 //    messaging apps and social media.
 
 export const metadata = {
-  title: "Roshan Sahu | Portfolio",
+  title: "Roshan Sahu | Full Stack Engineer",
   description: "Personal portfolio website of Roshan Sahu, showcasing projects and skills.",
 
   // Standard icons setup, referencing files directly from /public/favicons/
@@ -25,8 +25,8 @@ export const metadata = {
   
   // Open Graph (OG) Metadata for Rich Link Previews
   openGraph: {
-    title: 'Roshan Sahu | Portfolio',
-    description: 'Front-End Developer and UI/UX Designer showcasing projects and skills.',
+    title: "Roshan Sahu | Full Stack Engineer",
+    description: 'Full Stack Engineer and UI/UX Designer showcasing projects and skills.',
     url: 'https://roshansahudev.vercel.app', // CHANGE THIS to your final domain if different
     siteName: 'Roshan Sahu',
     images: [
@@ -35,7 +35,7 @@ export const metadata = {
         url: 'https://roshansahudev.vercel.app/og-image.png', 
         width: 1200,
         height: 630,
-        alt: 'Roshan Sahu Portfolio Preview Image',
+        alt: 'Roshan Sahu  Preview Image',
       },
     ],
     type: 'website', 
