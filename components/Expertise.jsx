@@ -92,14 +92,14 @@ const Expertise = () => {
                 <h3 className="dark:text-white font-bold ">Beat Wave</h3>
                 <div className="flex gap-3 text-xs text-zinc-400 ">
                   <a
-                    href=""
+                    href="https://github.com/codewithroshann/BeatWave"
                     className="flex gap-1 hover:text-white transition-all duration-150"
                   >
                     Github
                     <i className="ri-share-box-fill"></i>
                   </a>
                   <a
-                    href=""
+                    href="https://beat-wave-pink.vercel.app/"
                     className="flex gap-1 hover:text-white transition-all duration-150"
                   >
                     View
@@ -108,7 +108,7 @@ const Expertise = () => {
                 </div>
               </div>
               <p className="text-sm text-zinc-400 mb-2">
-               A Beat Market where you can buy your desired beat.
+                A Beat Market where you can buy your desired beat.
               </p>
               <div className="flex flex-wrap gap-3">
                 <span className="text-zinc-500 text-xs">Next.js /</span>
@@ -143,21 +143,24 @@ const Expertise = () => {
                 </div>
               </div>
               <p className="text-sm text-zinc-400 mb-2">
-          An online learning platform offering curated courses, interactive lessons, and community support for aspiring developers.
+                An online learning platform offering curated courses,
+                interactive lessons, and community support for aspiring
+                developers.
               </p>
               <div className="flex flex-wrap gap-3">
                 <span className="text-zinc-500 text-xs">Next.js /</span>
                 <span className="text-zinc-500 text-xs">Typescript.js /</span>
                 <span className="text-zinc-500 text-xs">Express.js /</span>
                 <span className="text-zinc-500 text-xs">TailwindCSS /</span>
-             
               </div>
             </li>
           </div>
           <div ref={(el) => (stackRef.current[2] = el)}>
             <li className="group hover:translate-x-1 duration-200 transition-all">
               <div className="flex justify-between mb-1">
-                <h3 className="dark:text-white font-bold ">Beat Wave</h3>
+                <h3 className="dark:text-white font-bold ">
+                  QR Code Generator
+                </h3>
                 <div className="flex gap-3 text-xs text-zinc-400 ">
                   <a
                     href=""
@@ -176,14 +179,16 @@ const Expertise = () => {
                 </div>
               </div>
               <p className="text-sm text-zinc-400 mb-2">
-                A place to share your open source projects and find new ones.
+                A web application that allows users to generate QR codes for
+                URLs, text, or other data, with options for customization and
+                download.
               </p>
               <div className="flex flex-wrap gap-3">
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
+                <span className="text-zinc-500 text-xs">ejs /</span>
+                <span className="text-zinc-500 text-xs">Express.js /</span>
+                <span className="text-zinc-500 text-xs">MongoDB /</span>
+                <span className="text-zinc-500 text-xs">Cloudinary /</span>
+                <span className="text-zinc-500 text-xs">Bootstrap /</span>
               </div>
             </li>
           </div>
