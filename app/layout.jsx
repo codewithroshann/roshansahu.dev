@@ -1,6 +1,5 @@
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
-
 // 1. Removed direct imports for favicons. It's more reliable
 //    to reference them directly by path from the /public folder.
 
@@ -18,16 +17,16 @@ export const metadata = {
 
   // Standard icons setup, referencing files directly from /public/favicons/
   icons: {
-    icon: "/favicons/favicon.ico",
-    shortcut: "/favicons/favicon.ico",
-    apple: "/favicons/apple-touch-icon.png",
+    icon: "../public/favicons/favicon.ico",
+    shortcut: "../public/favicons/favicon.ico",
+    apple: "../public/favicons/apple-touch-icon.png",
   },
   
   // Open Graph (OG) Metadata for Rich Link Previews
   openGraph: {
     title: "Roshan Sahu | Full Stack Engineer",
     description: 'Full Stack Engineer and UI/UX Designer showcasing projects and skills.',
-    url: 'https://roshansahudev.vercel.app', // CHANGE THIS to your final domain if different
+    url: 'https://roshansahudev.vercel.app', 
     siteName: 'Roshan Sahu',
     images: [
       {
