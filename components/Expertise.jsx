@@ -108,10 +108,13 @@ const Expertise = () => {
                 </div>
               </div>
               <p className="text-sm text-zinc-400 mb-2">
-                A place to share your open source projects and find new ones.
+               A Beat Market where you can buy your desired beat.
               </p>
               <div className="flex flex-wrap gap-3">
                 <span className="text-zinc-500 text-xs">Next.js /</span>
+                <span className="text-zinc-500 text-xs">Typescript /</span>
+                <span className="text-zinc-500 text-xs">Express.js /</span>
+                <span className="text-zinc-500 text-xs">MongoDB /</span>
                 <span className="text-zinc-500 text-xs">TailwindCSS /</span>
                 <span className="text-zinc-500 text-xs">Cloudinary /</span>
                 <span className="text-zinc-500 text-xs">JWT Auth /</span>
@@ -121,7 +124,7 @@ const Expertise = () => {
           <div ref={(el) => (stackRef.current[1] = el)}>
             <li className="group hover:translate-x-1 duration-200 transition-all">
               <div className="flex justify-between mb-1">
-                <h3 className="dark:text-white font-bold ">Beat Wave</h3>
+                <h3 className="dark:text-white font-bold ">Galaxy Academy</h3>
                 <div className="flex gap-3 text-xs text-zinc-400 ">
                   <a
                     href=""
@@ -140,14 +143,14 @@ const Expertise = () => {
                 </div>
               </div>
               <p className="text-sm text-zinc-400 mb-2">
-                A place to share your open source projects and find new ones.
+          An online learning platform offering curated courses, interactive lessons, and community support for aspiring developers.
               </p>
               <div className="flex flex-wrap gap-3">
                 <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
-                <span className="text-zinc-500 text-xs">Next.js /</span>
+                <span className="text-zinc-500 text-xs">Typescript.js /</span>
+                <span className="text-zinc-500 text-xs">Express.js /</span>
+                <span className="text-zinc-500 text-xs">TailwindCSS /</span>
+             
               </div>
             </li>
           </div>
@@ -184,7 +187,6 @@ const Expertise = () => {
               </div>
             </li>
           </div>
-         
         </ul>
       </TabsContent>
       <TabsContent value="experience">
