@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <div ref={footerRef}
-      className="flex justify-between mt-5 text-zinc-500 text-xs absolute bottom-0 w-[95%]  py-2 
+      className="flex justify-between mt-5 text-zinc-600 dark:text-zinc-500 text-xs absolute bottom-0 w-[95%]  py-2 
     "
     >
       <div>Codewithroshan.dev</div>
